@@ -1,0 +1,10 @@
+site_name: OpenVent.org | Electrical & Electronics Engineering Guide
+nav:
+  - Home: index.md
+  - About: about.md
+  - Overview: overview.md
+  - Requirements: reqs.md
+  - Contributing: contributing.md
+  img/
+      overview.png
+theme: readthedocs
