@@ -5,3 +5,5 @@ nav:
   - Overview: overview.md
   - Requirements: reqs.md
   - Contributing: contributing.md
+theme:
+    name: readthedocs
