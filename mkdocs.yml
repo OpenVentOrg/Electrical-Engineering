@@ -3,6 +3,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Overview: overview.md
+  - Design: design.md
   - Requirements: reqs.md
   - Contributing: contributing.md
 theme:
