@@ -2,7 +2,7 @@
 
 ## Block Diagram
 
-![ventilator_power_block_diagram.png](/img/ventilator_power_block_diagram.png)
+![ventilator_power_block_diagram.png](img/ventilator_power_block_diagram.png)
 
 ## Requirements
 
