@@ -7,23 +7,20 @@ This document describes the various parts of the electrical system, their I/o, f
 #### Requirements
 
 1. 110/220V
-2. Regulated 12V, 15A Supply
-3. 12V Lead-Acid backup battery 50AH min.
-4. Uninterruptible
-5. Battery level monitoring
-6. Mains power loss detection
-7. Utilize battery to "ride through" transients and brownouts
-8. Hot-swappable (optional)
-
-#### Off-shelf hardware
-
-| Item                                                         | Cost  | Per  |
-| ------------------------------------------------------------ | ----- | ---- |
-| [12v20a Switching Power Supply](https://www.amazon.com/dp/B007MWNF5Q) | ~$20  | 1    |
-| [12v 55Ah Battery](https://www.amazon.com/ExpertPower-Wheelchair-Mobility-Rechargeable-EXP12500) | ~$110 | 1    |
-| [DC-DC Buck Boost Converter](https://www.amazon.com/MCIGICM-step-down-Converter-3-0-40V-1-5-35V/dp/B06XZ1DKF2/) | ~$9   | 6    |
-
-Total Cost: ~$139
+2. 50hz/60hz
+3. 150W Mains
+4. 20 Minute backup battery
+5. Hot swappable battery (run on one battery while changing the other)
+6. Trickle charge while on mains
+7. Uninterpretable & without transients
+8. Audible alarm indicate when power is from battery
+9. Audible alarm indicate when battery is running low
+10. System voltage must remain >12v at all battery states of charge.
+11. Minimum single points of failure.
+12. Built-in-tests to confirm operation of each power supply
+13. One battery shall be primary, the other secondary.
+14. The primary battery shall discharge before the secondary.
+15. The battery system shall work with any 12v lead-acid battery
 
 ## Sensors
 
