@@ -1,10 +1,25 @@
 site_name: OpenVent.org | Electrical & Electronics Engineering Guide
 nav:
-  - Home: index.md
-  - About: about.md
-  - Overview: overview.md
-  - Design: design.md
-  - Requirements: reqs.md
-  - Contributing: contributing.md
+  - Main:
+    - 'Home': index.md
+    - 'About': about.md
+    - 'Overview': overview.md
+    - 'Design': 
+      - 'Design Documentation': design.md
+      - 'Power': power.md
+      - 'Sensors':
+        - 'Air Temperature': atemp.md
+        - 'O2': o2.md
+        - 'Flow': flow.md
+        - 'Pressure': pressure.md
+      - 'Controllers':
+        - 'Power Controller': pwrctrl.md
+        - 'Main Controller': mainctrl.md
+        - 'Sensor Controller': sensectrl.md
+        - 'Alarm Watchdog Controller': alarmctrl.md
+        - 'Display Controller': displayctrl.md
+      - 'Input Panel': inpanel.md
+    - Requirements: reqs.md
+    - Contributing: contributing.md
 theme:
     name: readthedocs
