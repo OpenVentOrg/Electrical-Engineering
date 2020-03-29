@@ -1,4 +1,4 @@
-# Power Supply Controller Design
+# Power Supply Design
 
 ## Block Diagram
 
