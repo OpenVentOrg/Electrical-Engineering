@@ -141,8 +141,6 @@ F 3 "~" H 2450 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 5450 2450 5600
-Wire Wire Line
 	2900 5650 2200 5650
 Connection ~ 2900 5650
 Wire Wire Line
@@ -165,13 +163,6 @@ Wire Wire Line
 Connection ~ 2200 5750
 Wire Wire Line
 	2200 5750 2200 5850
-Wire Wire Line
-	1950 5600 1950 5850
-Connection ~ 2450 5600
-Wire Wire Line
-	2450 5600 2450 6450
-Wire Wire Line
-	1950 5600 2450 5600
 Wire Wire Line
 	3800 2900 1900 2900
 Wire Wire Line
@@ -204,11 +195,84 @@ Wire Wire Line
 Connection ~ 1900 2750
 Text GLabel 1600 2500 0    50   Input ~ 0
 MCtrl+
-Wire Wire Line
-	2200 5850 1950 5850
-Wire Wire Line
-	1950 5850 1600 5850
-Connection ~ 1950 5850
 Text GLabel 1600 5850 0    50   Input ~ 0
 MCtrl-
+$Comp
+L Device:Crystal Y?
+U 1 1 5E82EEB0
+P 3150 3500
+F 0 "Y?" H 3150 3350 50  0000 R CNN
+F 1 "TBD" H 3300 3350 50  0000 R CNN
+F 2 "" H 3150 3500 50  0001 C CNN
+F 3 "~" H 3150 3500 50  0001 C CNN
+	1    3150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 5E82EF9D
+P 3150 4000
+F 0 "Y?" H 3350 4050 50  0000 R CNN
+F 1 "32.768kHz" H 3400 4150 50  0000 R CNN
+F 2 "" H 3150 4000 50  0001 C CNN
+F 3 "~" H 3150 4000 50  0001 C CNN
+	1    3150 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 3900 3000 3900
+Wire Wire Line
+	3000 3900 3000 4000
+Wire Wire Line
+	3300 3600 3000 3600
+Wire Wire Line
+	3000 3600 3000 3500
+$Comp
+L Device:D_Schottky D?
+U 1 1 5E8413B9
+P 2100 5700
+F 0 "D?" V 1900 5650 50  0000 L CNN
+F 1 " " V 2145 5779 50  0000 L CNN
+F 2 "" H 2100 5700 50  0001 C CNN
+F 3 "~" H 2100 5700 50  0001 C CNN
+	1    2100 5700
+	0    1    1    0   
+$EndComp
+Connection ~ 2100 5850
+Wire Wire Line
+	2100 5850 2200 5850
+$Comp
+L Device:D_Schottky D?
+U 1 1 5E8423E5
+P 1950 5700
+F 0 "D?" V 2150 5750 50  0000 R CNN
+F 1 "D_Schottky" V 1700 5800 50  0000 R CNN
+F 2 "" H 1950 5700 50  0001 C CNN
+F 3 "~" H 1950 5700 50  0001 C CNN
+	1    1950 5700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1950 5850
+Wire Wire Line
+	1950 5850 2100 5850
+Wire Wire Line
+	1600 5850 1750 5850
+Wire Wire Line
+	2450 5450 2450 5550
+Wire Wire Line
+	2450 5550 2100 5550
+Wire Wire Line
+	1750 5550 1750 5850
+Connection ~ 2450 5550
+Wire Wire Line
+	2450 5550 2450 6450
+Connection ~ 1950 5550
+Wire Wire Line
+	1950 5550 1750 5550
+Connection ~ 2100 5550
+Wire Wire Line
+	2100 5550 1950 5550
+Connection ~ 1750 5850
+Wire Wire Line
+	1750 5850 1950 5850
 $EndSCHEMATC
